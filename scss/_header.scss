@@ -1,0 +1,44 @@
+header {
+    .cabeza {
+        width: 80%;
+        margin: 10px auto;
+        font-family: $letranavbar;
+        text-align: center;
+
+        .container-fluid {
+            padding: 10px;
+            background-color: $bgcolor;
+            list-style: none;
+            display: flex;
+            justify-content: center;
+
+            .cabeza__botones {
+                margin: 10px;
+
+                &:hover {
+                    background-color: $bgcolornav;
+                    border-bottom: 10%;
+                    border-radius: 10%;
+                }
+
+                a {
+                    &:hover {
+                        font-weight: bold;
+                        color: $bgcolornavtext;
+                    }
+                }
+            }
+
+        }
+
+    }
+}
+
+h1 {
+    font-family: $letratitulo
+}
+
+h2 {
+    font-family: $letrasubtitulo;
+    letter-spacing: 10px;
+}

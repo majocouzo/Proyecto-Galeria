@@ -1,0 +1,88 @@
+header .cabeza {
+  width: 80%;
+  margin: 10px auto;
+  font-family: "Capriola", sans-serif;
+  text-align: center; }
+  header .cabeza .container-fluid {
+    padding: 10px;
+    background-color: #ffe4b5;
+    list-style: none;
+    display: flex;
+    justify-content: center; }
+    header .cabeza .container-fluid .cabeza__botones {
+      margin: 10px; }
+      header .cabeza .container-fluid .cabeza__botones:hover {
+        background-color: #fdf5e6;
+        border-bottom: 10%;
+        border-radius: 10%; }
+      header .cabeza .container-fluid .cabeza__botones a:hover {
+        font-weight: bold;
+        color: #808080; }
+
+h1 {
+  font-family: "Dancing Script", cursive; }
+
+h2 {
+  font-family: "Darker Grotesque", sans-serif;
+  letter-spacing: 10px; }
+
+body {
+  background-color: #ffe4b5; }
+
+img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover; }
+
+footer {
+  background-color: #ffe4b5;
+  text-align: center;
+  grid-area: footer;
+  padding-top: 20px;
+  height: 50px;
+  border-radius: 2px; }
+  footer .pie__titulo {
+    background-color: #ffe4b5;
+    text-align: left; }
+  footer .pie__redes {
+    background-color: #ffe4b5;
+    text-align: center; }
+  footer .pie__iconos {
+    background-color: #ffe4b5;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    justify-content: center; }
+  footer .pie {
+    background-color: #ffe4b5;
+    text-align: center;
+    width: 80%;
+    margin: 10px auto;
+    font-family: "Capriola", sans-serif; }
+    footer .pie .container-fluid {
+      padding: 10px;
+      background-color: #ffe4b5;
+      list-style: none;
+      display: flex;
+      justify-content: center; }
+      footer .pie .container-fluid .pie__botones {
+        margin: 10px; }
+        footer .pie .container-fluid .pie__botones:hover {
+          background-color: #fdf5e6;
+          border-bottom: 10%;
+          border-radius: 10%; }
+        footer .pie .container-fluid .pie__botones a:hover {
+          font-weight: bold;
+          color: #808080; }
+
+h5 {
+  font-family: "Dancing Script", cursive; }
+
+h6 {
+  font-family: "Darker Grotesque", sans-serif;
+  letter-spacing: 5px; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }

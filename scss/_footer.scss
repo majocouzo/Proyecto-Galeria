@@ -1,0 +1,71 @@
+@mixin pie ($text) {
+    background-color: $bgcolor;
+    text-align: $text;
+
+}
+
+footer {
+    @include pie (center);
+    grid-area: footer;
+    padding-top: 20px;
+    height: 50px;
+    border-radius: 2px;
+
+    .pie__titulo {
+        @include pie (left);
+    }
+
+    .pie__redes {
+        @include pie (center);
+    }
+
+    .pie__iconos {
+        @include pie (center);
+        width: 20px;
+        height: 20px;
+        justify-content: center
+    }
+
+    .pie {
+        @include pie (center);
+        width: 80%;
+        margin: 10px auto;
+        font-family: $letranavbar;
+
+        .container-fluid {
+            padding: 10px;
+            background-color: $bgcolor;
+            list-style: none;
+            display: flex;
+            justify-content: center;
+
+            .pie__botones {
+                margin: 10px;
+
+                &:hover {
+                    background-color: $bgcolornav;
+                    border-bottom: 10%;
+                    border-radius: 10%;
+                }
+
+                a {
+                    &:hover {
+                        font-weight: bold;
+                        color: $bgcolornavtext;
+                    }
+                }
+            }
+
+        }
+
+    }
+}
+
+h5 {
+    font-family: $letratitulo;
+}
+
+h6 {
+    font-family: $letrasubtitulo;
+    letter-spacing: 5px;
+}
