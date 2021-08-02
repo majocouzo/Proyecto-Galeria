@@ -22,7 +22,7 @@
    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Darker+Grotesque:wght@300&display=swap"
       rel="stylesheet">
    <link rel="stylesheet" href="../css/estilo.css">
-   <title>ValentinaGarbarino|Artista Plastica|Inicio</title>
+   <title>Vale.Garba|Artista Plastica</title>
 </head>
 <header>
    <nav class="cabeza">
@@ -34,16 +34,17 @@
                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="cabeza-botones">
+            <div class="cabeza__botones">
                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                   <div class="navbar-nav">
-                     <a class="nav-link" href="#">Inicio</a>
-                     <a class="nav-link" href="#">Cuadros</a>
-                     <a class="nav-link" href="#">Esculturas</a>
-                     <a class="nav-link" href="#">Restauracion</a>
-                     <a class="nav-link" href="#">Objetos</a>
-                     <a class="nav-link" href="#">Sobre Mi</a>
-                     <a class="nav-link" href="#">Contacto</a>
+                     <a class="nav-link" href="../index.html">Inicio</a>
+                     <a class="nav-link" href="cuadros.html">Cuadros</a>
+                     <a class="nav-link" href="esculturas.html">Esculturas</a>
+                     <a class="nav-link" href="murales.html">Murales</a>
+                     <a class="nav-link" href="objetos.html">Objetos</a>
+                     <a class="nav-link" href="sobre-mi.html">Sobre Mi</a>
+                     <a class="nav-link" href="contacto.html">Contacto</a>
+
                   </div>
                </div>
             </div>
@@ -52,84 +53,125 @@
    </nav>
 </header>
 
-
-<body>
-
+<body class="formulario">
    <section>
-      <form>
-         <div>
-            <label for="Nombre/Name"> Nombre/Name </label>
-            <input name="Nombre/Name" id="Nombre/Name" required placeholder="Nombre/Name">
-         </div>
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <div class="well well-sm">
+                  <form class="form-horizontal" method="post">
+                     <fieldset>
+                        <legend class="text-center header">Contacto/Contact</legend>
 
-         <div>
-            <label for="e-mail"> e-mail </label>
-            <input name="e-mail" id="e-mail" required placeholder="e-mail">
-         </div>
+                        <div class="form-group">
+                           <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                           <div class="col-md-8">
+                              <input id="fname" name="name" type="text" placeholder="First Name" class="form-control">
+                           </div>
+                        </div>
+                        <div class="form-group">
+                           <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                           <div class="col-md-8">
+                              <input id="lname" name="name" type="text" placeholder="Last Name" class="form-control">
+                           </div>
+                        </div>
 
-         <div>
-            <label for="Mensaje"> Mensaje </label>
-            <textarea name="Mensaje" id="Mensaje" required></textarea>
-         </div>
+                        <div class="form-group">
+                           <span class="col-md-1 col-md-offset-2 text-center"><i
+                                 class="fa fa-envelope-o bigicon"></i></span>
+                           <div class="col-md-8">
+                              <input id="email" name="email" type="text" placeholder="Email Address"
+                                 class="form-control">
+                           </div>
+                        </div>
 
-         <div>
-            <input type="submit" value="Enviar mensaje">
-            <input type="reset" value="Borrar mensaje">
-         </div>
+                        <div class="form-group">
+                           <span class="col-md-1 col-md-offset-2 text-center"><i
+                                 class="fa fa-phone-square bigicon"></i></span>
+                           <div class="col-md-8">
+                              <input id="phone" name="phone" type="text" placeholder="Phone" class="form-control">
+                           </div>
+                        </div>
 
-         <div>
-            <label for="terms"> Aceptar terminos y condiciones </label>
-            <input type="checkbox" name="terms" value="1"><br>
-            <label for="terms"> Me gustaria recibir noticias sobre nuevas publicaciones </label>
-            <input type="checkbox" name="terms" value="1">
+                        <div class="form-group">
+                           <span class="col-md-1 col-md-offset-2 text-center"><i
+                                 class="fa fa-pencil-square-o bigicon"></i></span>
+                           <div class="col-md-8">
+                              <textarea class="form-control" id="message" name="message"
+                                 placeholder="Enter your massage for us here. We will get back to you within 2 business days."
+                                 rows="7"></textarea>
+                           </div>
+                        </div>
+
+                        <div class="form-group">
+                           <div class="col-md-12 text-center">
+                              <button type="submit" class="btn btn-primary btn-lg">Enviar/Submit</button>
+                           </div>
+                        </div>
+                     </fieldset>
+                  </form>
+               </div>
+            </div>
          </div>
-      </form>
+      </div>
+
    </section>
-
-   <footer class="color3">
-
-      <div>
-         <h5> Valentina Garbarino </h5>
-      </div>
-
-      <nav>
-
-         <ul class="letra2">
-            <li>
-               <a href="../index.html"> Inicio </a>
-            </li>
-            <li>
-               <a href="cuadros.html"> Cuadros </a>
-            </li>
-            <li>
-               <a href="esculturas.html"> Esculturas </a>
-            </li>
-            <li>
-               <a href="objetos.html"> Restauracion </a>
-            </li>
-            <li>
-               <a href="restauracion.html"> Objetos </a>
-            </li>
-            <li>
-               <a href="sobre-mi.html"> Sobre Mi </a>
-            </li>
-            <li>
-               <a href="contacto.html"> Contacto </a>
-            </li>
-         </ul>
-      </nav>
-
-      <div>
-         <h5> Redes Sociales </h5>
-      </div>
-
-      <div>
-         <p> <img src="../iconos/correo-electronico.svg" width="10px" height="10px"> valentinagarbarino@hotmail.com</p>
-         <p> <img src="../iconos/twitter.svg" width="10px" height="10px"> ValentinaGarbarino|Artista Plastica </p>
-         <p> <img src="../iconos/facebook.svg" width="10px" height="10px"> ValentinaGarbarino|Artista Plastica</p>
-         <p> <img src="../iconos/llamada-telefonica.svg" width="10px" height="10px"> 0351-4444444 </p>
-         <img src="../iconos/whatsapp.svg" width="50px" height="50px" alt="whatsapp.svg">
-      </div>
-
-   </footer>
 </body>
+
+
+<footer>
+   <section>
+
+      <div class="pie__titulo">
+         <h5> Valentina Garbarino </h5>
+         <h6> Artista Plastica</h6>
+
+      </div>
+      <section class="pie__redes">
+         <div>
+            <h5> Redes Sociales </h5>
+         </div>
+
+         <div>
+            <a href="mailto:valentinagarbarino@hotmail.com" target="_blank" rel="noopener"><img class="pie__iconos"
+                  src="../iconos/correo-electronico.svg"></a>
+            <a href="https://wa.me/543513454545" target="_blank" rel="noopener"><img class="pie__iconos"
+                  src="../iconos/whatsapp.svg" alt="whatsapp.svg"></a>
+            <a href="https://twitter.com/fulanadetal" target="_blank" rel="noopener"><img class="pie__iconos"
+                  src="../iconos/twitter.svg">
+               <a href="https://facebook.com/fulanadetal" target="blank" rel="noopener"><img class="pie__iconos"
+                     src="../iconos/facebook.svg"></a>
+               <a href="tel:3514815564"><img class="pie__iconos" src="../iconos/llamada-telefonica.svg"></a>
+
+
+         </div>
+      </section>
+
+      <nav class="pie">
+         <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="container-fluid">
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                  aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="pie__botones">
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                     <div class="navbar-nav">
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                        <a class="nav-link" href="cuadros.html">Cuadros</a>
+                        <a class="nav-link" href="esculturas.html">Esculturas</a>
+                        <a class="nav-link" href="murales.html">Murales</a>
+                        <a class="nav-link" href="objetos.html">Objetos</a>
+                        <a class="nav-link" href="sobre-mi.html">Sobre Mi</a>
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                     </div>
+                  </div>
+               </div>
+            </nav>
+         </nav>
+      </nav>
+</footer>
+</body>
+
+</html>
